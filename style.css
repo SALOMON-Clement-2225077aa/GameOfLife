@@ -1,7 +1,22 @@
+body{
+    font-family: "Source Sans Pro";
+}
+
 .center{
     text-align: center;
 }
 
-nav {
+.menu {
     background-color: rgb(63, 61, 61);
+    color: white;
+    font-size: 25px;
+}
+
+.blanc{
+    color: white;
+    text-decoration: none;
+}
+
+.gros{
+    font-size: 25px;
 }
