@@ -1,3 +1,7 @@
+:root{
+    --menu_background: rgb(63, 61, 61);
+}
+
 body{
     font-family: "Source Sans Pro";
 }
@@ -7,9 +11,7 @@ body{
 }
 
 .menu {
-    background-color: rgb(63, 61, 61);
-    color: white;
-    font-size: 25px;
+    background-color: var(--menu_background)
 }
 
 .blanc{
@@ -63,6 +65,8 @@ nav a:hover{
     box-shadow: 0px 1px 2px;
     width: 100%;
     z-index: 1000;
+    position: absolute;
+    background-color: var(--menu_background);
 }
 
 nav > ul li:hover .sous{
@@ -108,7 +112,6 @@ nav > ul li:hover .sous{
 }
 
 #myBtn {
-    display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 30px; /* Place the button 30px from the right */
