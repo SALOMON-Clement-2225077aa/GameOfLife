@@ -3,6 +3,7 @@
 }
 
 body{
+    background-image: url("https://assets.reedpopcdn.com/0_i4NRQkJRLh_21WNN.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/0_i4NRQkJRLh_21WNN.jpg");
     font-family: "Source Sans Pro";
 }
 
@@ -98,6 +99,7 @@ nav > ul li:hover .sous{
     border-radius: 3px;
     padding: 5px;
     display: inline-block;
+    background-color: white;
 }
 
 #para2{
@@ -109,6 +111,7 @@ nav > ul li:hover .sous{
     margin-left: 25px;
     padding: 5px;
     display: inline-block;
+    background-color: white;
 }
 
 #myBtn {
@@ -129,3 +132,8 @@ nav > ul li:hover .sous{
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+.encadrement{
+    background-color: white;
+    border: 2px black solid;
+}
