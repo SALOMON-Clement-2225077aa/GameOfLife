@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
-	<link rel = stylesheet href="style.css">
+	<link rel=stylesheet href="style.css">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>The Game of Life</title>
 	<link rel="icon" type="image/png" href="logo.png">
 </head>
+
 <body>
 	<nav class="menu">
-		<a class="blanc gros" href="index.html">Menu</a> | <a class="blanc gros" href="john_horton_conway.html">John Horton Conway</a> | <a class="blanc gros" href="structures.html">Structures</a> | <a class="blanc gros" href="https://playgameoflife.com/">Le Jeu de la vie</a>
+		<ul>
+			<li><a class="gros blanc" href="index.html">Menu</a></li>
+			<li class="deroulant gros blanc"><a href="structures.html">Structures</a>
+				<ul class="sous">
+					<li><a class="blanc" href="Structure_Oscillateur.html">Structures Oscillantes</a></li>
+					<li><a class="blanc" href="Structure_Mathuslem.html">Mathusalem</a></li>
+					<li><a class="blanc" href="Structure_Stables.html">Structures Stables</a></li>
+					<li><a class="blanc" href="Structure_Vaisseaux.html">Vaisseaux</a></li>
+				</ul>
+			</li>
+			<li><a class="gros blanc" href="john_horton_conway.html">John Horton Conway</a></li>
+			<li><a class="gros blanc" href="https://playgameoflife.com/">Le Jeux de la Vie</a></li>
+		</ul>
 	</nav>
 	<p id="para1">
 		Le jeu de la vie, (the game of life en anglais) est un automate cellulaire.
@@ -21,9 +35,11 @@
 		Une cellule vivante possédant 2 ou 3 cellules voisine vivante survie, et meurt sinon <br>
 	</p>
 	<p id="para2">
-		C'est à partir de ces deux règles très simples vont émerger de 
+		C'est à partir de ces deux règles très simples vont émerger de
 		nombreux phénomènes mathématique. A tel point qu'il est considéré comme Turing-complet.
 		L'objectif de ce site est de présenter au mieux ce qu'il est possible de produire avec ce
 		simple programme.
 	</p>
+	<br>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 </body>
