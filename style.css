@@ -7,10 +7,6 @@ body{
     font-family: "Source Sans Pro";
 }
 
-.center{
-    text-align: center;
-}
-
 .menu {
     background-color: var(--menu_background)
 }
@@ -24,6 +20,11 @@ body{
 
 .gros{
     font-size: 25px;
+}
+
+.fichier_source{
+    position: fixed;
+    top: 95%;
 }
 
 @media screen and (max-width: 500px) {
@@ -40,7 +41,7 @@ body{
         position: relative;
         right: 20px;
     }
-    #para1{
+    #paragraphe_menu{
         font-size: small;
         width: 40%;
         max-width: 400px;
@@ -52,18 +53,16 @@ body{
         display: inline-block;
         background-color: white;
     }
-    
-    #para2{
-        font-size: small;
-        width: 40%;
-        max-width: 400px;
-        text-align: justify;
-        border: 2px solid black ;
-        border-radius: 3px;
-        margin-left: 25px;
-        padding: 5px;
-        display: inline-block;
-        background-color: white;
+    .fichier_source{
+        position: fixed;
+        top: 93%;
+    }
+}
+
+@media screen and (max-height: 820px){
+    .fichier_source{
+        position: fixed;
+        top: 92%;
     }
 }
 
@@ -132,29 +131,13 @@ nav > ul li:hover .sous{
     background-color: RGBa(200,200,200,0.1);
 }
 
-br{
-    
-}
-
-#para1{
+#paragraphe_menu{
     width: 40%;
     max-width: 400px;
     text-align: justify;
     margin-left: 25px;
     border: 2px solid black ;
     border-radius: 3px;
-    padding: 5px;
-    display: inline-block;
-    background-color: white;
-}
-
-#para2{
-    width: 40%;
-    max-width: 400px;
-    text-align: justify;
-    border: 2px solid black ;
-    border-radius: 3px;
-    margin-left: 25px;
     padding: 5px;
     display: inline-block;
     background-color: white;
