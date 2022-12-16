@@ -186,7 +186,7 @@ img{
 
 /* CSS pour le switch entre mode jour et nuit */
 .switch {
-    position: fixed; /* Set the element to be fixed in place */
+    position: fixed;
     bottom:45px;
     left:30px;
     display: inline-block;
