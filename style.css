@@ -11,8 +11,6 @@ body{
     background-color: var(--menu_background)
 }
 
-
-
 .blanc{
     color: white;
     text-decoration: none;
@@ -20,11 +18,6 @@ body{
 
 .gros{
     font-size: 25px;
-}
-
-.fichier_source{
-    position: fixed;
-    top: 95%;
 }
 
 @media screen and (max-width: 500px) {
@@ -170,6 +163,13 @@ nav > ul li:hover .sous{
     margin-right:auto;
 }
 
+.Wikipédia{
+    background-color: white;
+    border: 2px black solid;
+    position: fixed;
+    bottom: 0px;
+}
+
 img{
     border: 5px black solid;
     display: block;
@@ -187,7 +187,7 @@ img{
 /* CSS pour le switch entre mode jour et nuit */
 .switch {
     position: fixed; /* Set the element to be fixed in place */
-    bottom:40px;
+    bottom:45px;
     left:30px;
     display: inline-block;
     width: 60px;
