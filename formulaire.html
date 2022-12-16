@@ -36,13 +36,13 @@
 	</nav>
 	<br>
 
-	<form id="form" action="#" class="encadrement">
+	<form id="form" class="encadrement">
 		<label for="name">Nom:</label><br>
 		<input type="text" id="name" name="name"><br>
 		<label for="email">Email:</label><br>
 		<input type="email" id="email" name="email"><br>
 		<label for="message">Message:</label><br>
-		<textarea id="message" name="message" rows="5" cols="50" placeholder="Laissez nous un avis sur notre site :"></textarea><br><br>
+		<textarea id="message" name="text" rows="5" cols="30" placeholder="Laissez nous un avis sur notre site :"></textarea><br><br>
 		<label for="gender">Genre:</label><br>
 		<input type="radio" id="male" name="gender" value="male">
 		<label for="male">Homme</label><br>
@@ -50,7 +50,7 @@
 		<label for="female">Femme</label><br>
 		<input type="radio" id="other" name="gender" value="other">
 		<label for="other">Autre</label><br><br>
-		<input type="submit" value="Envoyer">
+		<button onclick="mail()" title="Envoyer"> Envoyer </button>
 	  </form> 	  
 	
 	<!-- Bouton pour remonter en haut de la page -->

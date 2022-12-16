@@ -163,6 +163,14 @@ nav > ul li:hover .sous{
     margin-right:auto;
 }
 
+.dark-mode {
+    background-color: black solid;
+    border: 2px white;
+    width: 70%;
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
 .Wikipédia{
     background-color: white;
     border: 2px black solid;
