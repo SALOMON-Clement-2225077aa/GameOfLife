@@ -157,6 +157,7 @@ nav > ul li:hover .sous{
 
 .encadrement{
     background-color: white;
+    color: #ccc;
     border: 2px black solid;
     width: 70%;
     margin-left:auto; 
@@ -164,11 +165,8 @@ nav > ul li:hover .sous{
 }
 
 .dark-mode {
-    background-color: black solid;
-    border: 2px white;
-    width: 70%;
-    margin-left:auto; 
-    margin-right:auto;
+    background-image: url("https://raw.githubusercontent.com/ClementRKG/GameOfLife/main/dark%20theme.bmp");
+    font-family: "Source Sans Pro";
   }
 
 .Wikipédia{
