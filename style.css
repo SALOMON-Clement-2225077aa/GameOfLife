@@ -1,5 +1,5 @@
 :root{
-    --menu_background: black;
+    --menu_background: rgb(63, 61, 61);
 }
 
 body{
@@ -157,7 +157,6 @@ nav > ul li:hover .sous{
 
 .encadrement{
     background-color: white;
-    color: #ccc;
     border: 2px black solid;
     width: 70%;
     margin-left:auto; 
