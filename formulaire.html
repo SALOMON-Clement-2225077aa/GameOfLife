@@ -34,8 +34,24 @@
 			<li><a class="gros blanc" href="https://playgameoflife.com/">Le Jeu de la Vie</a></li>
 		</ul>
 	</nav>
-
 	<br>
+
+	<form id="form" action="#" class="encadrement">
+		<label for="name">Nom:</label><br>
+		<input type="text" id="name" name="name"><br>
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br>
+		<label for="message">Message:</label><br>
+		<textarea id="message" name="message" rows="5" cols="50" placeholder="Laissez nous un avis sur notre site :"></textarea><br><br>
+		<label for="gender">Genre:</label><br>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">Homme</label><br>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">Femme</label><br>
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">Autre</label><br><br>
+		<input type="submit" value="Envoyer">
+	  </form> 	  
 	
 	<!-- Bouton pour remonter en haut de la page -->
 	<button onclick="topFunction()" id="topButton" title="Go to top"> ⇧ </button>
