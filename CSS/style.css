@@ -198,6 +198,12 @@ img{
     margin: auto;
 }
 
+.Vaisseaux{
+    border: 0px;
+    display: block;
+    margin: auto;
+}
+
 .tab_structure{
     background-color: white;
     border: 2px black solid;
