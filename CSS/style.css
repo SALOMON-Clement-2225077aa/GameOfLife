@@ -136,30 +136,6 @@ nav > ul li:hover .sous{
     background-color: white;
 }
 
-#paragraphe_menu_2{
-    width: 45%;
-    max-width: 400px;
-    text-align: justify;
-    margin-left: 25px;
-    border: 2px solid black ;
-    border-radius: 3px;
-    padding: 5px;
-    display: inline-block;
-    background-color: white;
-}
-
-#paragraphe_menu_3{
-    width: 35%;
-    max-width: 400px;
-    text-align: justify;
-    margin-left: 25px;
-    border: 2px solid black ;
-    border-radius: 3px;
-    padding: 5px;
-    display: inline-block;
-    background-color: white;
-}
-
 #topButton {
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
