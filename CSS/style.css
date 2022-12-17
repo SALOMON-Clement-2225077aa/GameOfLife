@@ -172,6 +172,7 @@ nav > ul li:hover .sous{
     background-color: white;
     border: 2px black solid;
     width: 70%;
+    padding: 1em;
     margin-left:auto; 
     margin-right:auto;
 }
@@ -209,6 +210,7 @@ img{
     background-color: white;
     border: 2px black solid;
     width: 55%;
+    padding: 1em;
     margin-left:auto; 
     margin-right:auto;
 }
