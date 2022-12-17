@@ -34,7 +34,7 @@ body{
         position: relative;
         right: 20px;
     }
-    .paragraphe_menu{
+    #paragraphe_menu{
         font-size: small;
         width: 40%;
         max-width: 400px;
@@ -124,7 +124,7 @@ nav > ul li:hover .sous{
     background-color: RGBa(200,200,200,0.1);
 }
 
-.paragraphe_menu{
+#paragraphe_menu{
     width: 40%;
     max-width: 400px;
     text-align: justify;
@@ -157,6 +157,11 @@ nav > ul li:hover .sous{
     width: 70%;
     margin-left:auto; 
     margin-right:auto;
+}
+
+.Petit_Titre{
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .dark-mode {
