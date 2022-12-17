@@ -1,16 +1,19 @@
 
-// Get the button:
-let mybutton = document.getElementById("myBtn");
-
+// Fonction qui s'active avec le bouton "⇧" en bas à droite de chauqe page.
+// Permet de remonter tout en haut de la page actuelle.
 function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+// Fonction qui s'active ou se désactive avec le switch en bas à gauche de chauqe page.
+// Il permet d'activer ou de désactiver le mode sombre.
 function dark(){
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
 
+// Fonction qui s'active avec le bouton "envoyer" de la page formulaire.
+// Il permet comme son nom l'indique d'envoyer le formulaire.
 function mail(){
   var message = document.querySelector("#" + form_id_js + " [name='text']").value;
   data_js['text'] = message;

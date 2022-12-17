@@ -1,26 +1,38 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<!-- head -->
 <head>
+	
+	<!-- balises meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Titre -->
 	<title>The Game of Life</title>
+	
+	<!-- liens -->
 	<link rel="icon" type="image/png" href="https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://playgameoflife.com/&size=16">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
 	<link rel=stylesheet href="/GameOfLife/CSS/style.css">
 	<script src="/GameOfLife/JavaScript/js.js"></script>
+
 </head>
 
+<!-- corps -->
 <body data-theme="light">
 	
+	<!-- Menu déroulant -->
 	<nav class="menu">
 		<ul>
-			<li class="deroulant"><a class="gros blanc"> Menu</a>
+			<!-- Menu accueil -->
+			<li class="deroulant"><a class="gros blanc">Menu</a>
 				<ul class="sous">
 					<li><a class="blanc petit" href="#">Acceuil</a></li>
 					<li><a class="blanc petit" href="/GameOfLife/Html/formulaire.html">Formulaire</a></li>
 				</ul>
 			</li>
+			<!-- Menu Structure -->
 			<li class="deroulant"><a class="gros blanc">Structures</a>
 				<ul class="sous">
 					<li><a class="blanc petit" href="/GameOfLife/Html/Structures/Structure_Stables.html">Structures Stables</a></li>
@@ -29,11 +41,13 @@
 					<li><a class="blanc petit" href="/GameOfLife/Html/Structures/Structure_Mathusalem.html">Mathusalem</a></li>
 				</ul>
 			</li>
+			<!-- Pages uniques -->
 			<li><a class="gros blanc" href="/GameOfLife/Html/john_horton_conway.html">John Horton Conway</a></li>
 			<li><a class="gros blanc" href="https://playgameoflife.com/">Le Jeu de la Vie</a></li>
 		</ul>
 	</nav>
 
+	<!-- Contenu de la page (texte) -->
 	<p id="paragraphe_menu">
 		Le jeu de la vie, (the game of life en anglais) est un automate cellulaire.
 		Immaginé par le mathématicien John Horton Conway en 1970, ce jeu à 0 joueur
@@ -64,8 +78,8 @@
 		L'objectif de ce site est de présenter au mieux ce qu'il est possible
 		de produire avec ce simple programme.
 	</p>
-
 	<br>
+
 	<!-- Bouton pour remonter en haut de la page -->
 	<button onclick="topFunction()" id="topButton" title="Go to top"> ⇧ </button>
 

@@ -1,26 +1,37 @@
 <!DOCTYPE html>
 <html lang="fr">
 
+<!-- head -->
 <head>
+
+	<!-- balises meta -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Titre -->
 	<title>The Game of Life</title>
+	
+	<!-- liens -->
 	<link rel="icon" type="image/png" href="https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://playgameoflife.com/&size=16">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
 	<link rel=stylesheet href="../../CSS/style.css">
 	<script src="../../JavaScript/js.js"></script>
 </head>
 
+<!-- corps -->
 <body data-theme="light">
-	
+
+	<!-- Menu déroulant -->
 	<nav class="menu">
 		<ul>
+			<!-- Menu accueil -->
 			<li class="deroulant"><a class="gros blanc"> Menu</a>
 				<ul class="sous">
 					<li><a class="blanc petit" href="../../index.html">Acceuil</a></li>
 					<li><a class="blanc petit" href="../formulaire.html">Formulaire</a></li>
 				</ul>
 			</li>
+			<!-- Menu Structure -->
 			<li class="deroulant"><a class="gros blanc">Structures</a>
 				<ul class="sous">
 					<li><a class="blanc petit" href="Structure_Stables.html">Structures Stables</a></li>
@@ -29,15 +40,20 @@
 					<li><a class="blanc petit" href="#">Mathusalem</a></li>
 				</ul>
 			</li>
+			<!-- Pages uniques -->
 			<li><a class="gros blanc" href="../john_horton_conway.html">John Horton Conway</a></li>
 			<li><a class="gros blanc" href="https://playgameoflife.com/">Le Jeu de la Vie</a></li>
 		</ul>
 	</nav>
 
+
+	<!-- Grand tableau -->
 	<table class="tab_structure">
 		<thead>
 			<tr>
 				<th colspan="2">
+
+					<!-- Titre et description -->
 					<b><u>Mathusalem</u></b>
 					<br>
 					C'est un terme pour définir un petit motif de départ qui "explose"
@@ -49,6 +65,8 @@
 		<tbody>
 			<tr>
 				<td>
+          
+					<!-- Les structures mathusalem et leurs images -->
 					<b>Le Pentomino R :</b>
 					<br>
 					C'est une petite structure de 5 cellules dont la particularité est
@@ -86,5 +104,6 @@
 	<!-- Bouton pour switch entre mode jour et nuit  -->
 	<label class="switch"><input type="checkbox"  onclick="dark()"><span class="slider round"></span></label>
 	
+  	<!-- Texte en bas de page indiquant la source -->
 	<p class="Wikipédia"> Sources des images : Wikipédia</p>
 </body>
