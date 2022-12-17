@@ -36,6 +36,19 @@ body{
     font-size: 25px;
 }
 
+.paragraphe_menu{
+    width: 40%;
+    max-width: 400px;
+    text-align: justify;
+    margin-left: 25px;
+    border: 2px solid black ;
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+    background-color: white;
+}
+
+
 @media screen and (max-width: 500px) {
     .gros{
         font-size: 20px;
@@ -50,7 +63,7 @@ body{
         position: relative;
         right: 20px;
     }
-    #paragraphe_menu{
+    .paragraphe_menu{
         font-size: small;
         width: 40%;
         max-width: 400px;
@@ -138,18 +151,6 @@ nav > ul li:hover .sous{
 .sous a:hover{
     border-bottom: none;
     background-color: RGBa(200,200,200,0.1);
-}
-
-#paragraphe_menu{
-    width: 40%;
-    max-width: 400px;
-    text-align: justify;
-    margin-left: 25px;
-    border: 2px solid black ;
-    border-radius: 3px;
-    padding: 5px;
-    display: inline-block;
-    background-color: white;
 }
 
 #topButton {
