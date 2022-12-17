@@ -20,7 +20,5 @@ function dark(){
 // Fonction qui s'active avec le bouton "envoyer" de la page formulaire.
 // Il permet comme son nom l'indique d'envoyer le formulaire.
 function mail(){
-  var message = document.querySelector("#" + form_id_js + " [name='text']").value;
-  data_js['text'] = message;
-  window.open('mailto:clement.salomon@etu.univ-amu.fr?subject=Avis sur le site du jeu de la vie&body='+message);
+  window.open('mailto:clement.salomon@etu.univ-amu.fr?subject=Avis sur le site du jeu de la vie&body=test');
 }
