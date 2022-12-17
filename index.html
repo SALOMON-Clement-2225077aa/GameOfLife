@@ -1,3 +1,10 @@
+<!--
+  Ce fichier HTML définit la structure de la page web pour le jeu de la vie.
+  Il contient les éléments suivants :
+  - Un élément head qui contient des informations sur la page (titre, meta, liens)
+  - Un élément body qui contient le contenu de la page (menu, paragraphes, image, lien)
+-->
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -8,10 +15,12 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<!-- Titre -->
+	
+	<!-- Le titre de la page qui apparaîtra dans l'onglet du navigateur -->
 	<title>The Game of Life</title>
 	
-	<!-- liens -->
+	<!-- Liens vers l'icône qui apparaîtra dans l'onglet du navigateur,
+	la police de caractères utilisée sur la page, les fichiers CSS et JavaScript.-->
 	<link rel="icon" type="image/png" href="https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://playgameoflife.com/&size=16">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
 	<link rel=stylesheet href="/GameOfLife/CSS/style.css">
@@ -22,17 +31,17 @@
 <!-- corps -->
 <body data-theme="light">
 	
-	<!-- Menu déroulant -->
+	<!-- Menu déroulant qui apparaît en haut de la page et qui permet de naviguer -->
 	<nav class="menu">
 		<ul>
-			<!-- Menu accueil -->
+			<!-- Sous-menu qui contient les liens vers la page d'accueil et le formulaire -->
 			<li class="deroulant"><a class="gros blanc">Menu</a>
 				<ul class="sous">
 					<li><a class="blanc petit" href="#">Acceuil</a></li>
 					<li><a class="blanc petit" href="/GameOfLife/Html/formulaire.html">Formulaire</a></li>
 				</ul>
 			</li>
-			<!-- Menu Structure -->
+			<!-- Menu Structure qui contient les liens vers les 4 pages structures -->
 			<li class="deroulant"><a class="gros blanc">Structures</a>
 				<ul class="sous">
 					<li><a class="blanc petit" href="/GameOfLife/Html/Structures/Structure_Stables.html">Structures Stables</a></li>
@@ -41,7 +50,7 @@
 					<li><a class="blanc petit" href="/GameOfLife/Html/Structures/Structure_Mathusalem.html">Mathusalem</a></li>
 				</ul>
 			</li>
-			<!-- Pages uniques -->
+			<!-- Pages uniques (Conway et jeu de la vie) -->
 			<li><a class="gros blanc" href="/GameOfLife/Html/john_horton_conway.html">John Horton Conway</a></li>
 			<li><a class="gros blanc" href="https://playgameoflife.com/">Le Jeu de la Vie</a></li>
 		</ul>

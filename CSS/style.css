@@ -1,3 +1,19 @@
+/*
+  Ce fichier contient les styles CSS pour la page web du jeu de la vie.
+  Lles propriétés de mise en forme les plus importantes qu'il définit sont les suivantes :
+  - body : le fond de la page
+  - .menu : le menu de navigation en haut de la page
+  - .blanc : les éléments de texte en blanc
+  - .gros : les titres de menu en gras et plus gros
+  - @media : les règles de mise en forme pour les écrans de différentes tailles
+  - nav : le menu de navigation
+  - ul, li : les listes et les éléments de liste
+  - .sous : les sous-menus du menu déroulant
+  - #paragraphe_menu : le paragraphe du corps de la page
+  - #topButton : le bouton pour remonter en haut de la page
+  - .dark-mode : la classe qui active le mode sombre
+*/
+
 :root{
     --menu_background: rgb(63, 61, 61);
 }
