@@ -201,10 +201,19 @@ img{
 }
 
 .Vaisseaux{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
     border: 0px;
     display: block;
     margin: auto;
-}
+    animation: scroll-right 15s linear infinite;
+  }
+  
+  @keyframes scroll-right {
+    from {transform: translateX(-750%);}
+    to {transform: translateX(+750%);}
+  }
 
 .tab_structure{
     background-color: white;
