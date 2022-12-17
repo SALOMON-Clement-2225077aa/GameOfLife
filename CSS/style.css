@@ -164,7 +164,7 @@ nav > ul li:hover .sous{
 }
 
 .dark-mode {
-    background-image: url("https://raw.githubusercontent.com/ClementRKG/GameOfLife/main/dark%20theme.bmp");
+    background-image: url("../Sources/Images/dark\ theme.bmp");
     font-family: "Source Sans Pro";
   }
 
