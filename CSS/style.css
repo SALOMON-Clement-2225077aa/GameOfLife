@@ -15,11 +15,11 @@
   - .dark-mode : la classe qui active le mode sombre
 */
 
-:root{
+:root {
     --menu_background: rgb(63, 61, 61);
 }
 
-body{
+body {
     background-image: url("https://assets.reedpopcdn.com/0_i4NRQkJRLh_21WNN.jpg/BROK/resize/1920x1920%3E/format/jpg/quality/80/0_i4NRQkJRLh_21WNN.jpg");
     font-family: "Source Sans Pro";
 }
@@ -28,21 +28,21 @@ body{
     background-color: var(--menu_background)
 }
 
-.blanc{
+.blanc {
     color: white;
     text-decoration: none;
 }
 
-.gros{
+.gros {
     font-size: 25px;
 }
 
-.paragraphe_menu{
+.paragraphe_menu {
     width: 40%;
     max-width: 400px;
     text-align: justify;
     margin-left: 25px;
-    border: 2px solid black ;
+    border: 2px solid black;
     border-radius: 3px;
     padding: 5px;
     display: inline-block;
@@ -51,69 +51,73 @@ body{
 
 
 @media screen and (max-width: 500px) {
-    .gros{
+    .gros {
         font-size: 20px;
     }
 }
+
 @media screen and (max-width: 430px) {
-    .gros{
+    .gros {
         font-size: 10px;
     }
-    .petit{
+
+    .petit {
         font-size: 8px;
         position: relative;
         right: 20px;
     }
-    .paragraphe_menu{
+
+    .paragraphe_menu {
         font-size: small;
         width: 40%;
         max-width: 400px;
         text-align: justify;
         margin-left: 25px;
-        border: 2px solid black ;
+        border: 2px solid black;
         border-radius: 3px;
         padding: 5px;
         display: inline-block;
         background-color: white;
     }
-    .fichier_source{
+
+    .fichier_source {
         position: fixed;
         top: 93%;
     }
 }
 
-@media screen and (max-height: 820px){
-    .fichier_source{
+@media screen and (max-height: 820px) {
+    .fichier_source {
         position: fixed;
         top: 92%;
     }
 }
 
-nav{
+nav {
     width: 100%;
     margin: 0 auto;
     position: sticky;
     top: 0px;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
 }
 
-nav ul li{
+nav ul li {
     float: left;
     width: 25%;
     text-align: center;
-    position:  relative;
+    position: relative;
 }
 
-nav ul::after{
-    content:  "";
+nav ul::after {
+    content: "";
     display: table;
     clear: both;
 }
 
-nav a{
+nav a {
     display: block;
     text-decoration: none;
     color: black;
@@ -121,12 +125,12 @@ nav a{
     padding: 10px 0px;
 }
 
-nav a:hover{
+nav a:hover {
     color: orange;
     border-bottom: 2px solid gold;
 }
 
-.sous{
+.sous {
     display: none;
     box-shadow: 0px 1px 2px;
     width: 100%;
@@ -135,50 +139,63 @@ nav a:hover{
     background-color: var(--menu_background);
 }
 
-nav > ul li:hover .sous{
+nav>ul li:hover .sous {
     display: block;
 }
 
-.sous li{
+.sous li {
     float: none;
     width: 100%;
     text-align: left;
 }
-.sous a{
+
+.sous a {
     padding: 10px;
     border-bottom: none;
 }
 
-.sous a:hover{
+.sous a:hover {
     border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
+    background-color: RGBa(200, 200, 200, 0.1);
 }
 
 #topButton {
-    position: fixed; /* Fixed/sticky position */
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: rgb(8, 8, 8); /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 15px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
-  }
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgb(8, 8, 8);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+}
 
-.encadrement{
+.encadrement {
     background-color: white;
     border: 2px black solid;
     width: 70%;
     padding: 1em;
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.Petit_Titre{
+.Petit_Titre {
     text-decoration: underline;
     font-weight: bold;
 }
@@ -186,22 +203,22 @@ nav > ul li:hover .sous{
 .dark-mode {
     background-image: url("../Sources/Images/dark\ theme.bmp");
     font-family: "Source Sans Pro";
-  }
+}
 
-.Wikipédia{
+.Wikipédia {
     background-color: white;
     border: 2px black solid;
     position: fixed;
     bottom: 0px;
 }
 
-img{
+img {
     border: 5px black solid;
     display: block;
     margin: auto;
 }
 
-.Vaisseaux{
+.Vaisseaux {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -209,37 +226,44 @@ img{
     display: block;
     margin: auto;
     animation: scroll-right 15s linear infinite;
-  }
-  
-  @keyframes scroll-right {
-    from {transform: translateX(-850%);}
-    to {transform: translateX(+850%);}
-  }
+}
 
-.tab_structure{
+@keyframes scroll-right {
+    from {
+        transform: translateX(-850%);
+    }
+
+    to {
+        transform: translateX(+850%);
+    }
+}
+
+.tab_structure {
     background-color: white;
     border: 2px black solid;
     width: 55%;
     padding: 1em;
-    margin-left:auto; 
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* CSS pour le switch entre mode jour et nuit */
 .switch {
     position: fixed;
-    bottom:45px;
-    left:30px;
+    bottom: 45px;
+    left: 30px;
     display: inline-block;
     width: 60px;
     height: 34px;
-  }
-  .switch input { 
+}
+
+.switch input {
     opacity: 0;
     width: 0;
     height: 0;
-  }
-  .slider {
+}
+
+.slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -249,8 +273,9 @@ img{
     background-color: #ccc;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  .slider:before {
+}
+
+.slider:before {
     position: absolute;
     content: "";
     height: 26px;
@@ -260,19 +285,23 @@ img{
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
-  }
-  input:checked + .slider {
+}
+
+input:checked+.slider {
     background-color: black
-  }
-  input:checked + .slider:before {
+}
+
+input:checked+.slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
-  }
-  /* Arrondir les bords */
-  .slider.round {
+}
+
+/* Arrondir les bords */
+.slider.round {
     border-radius: 34px;
-  }
-  .slider.round:before {
+}
+
+.slider.round:before {
     border-radius: 50%;
-  }
+}

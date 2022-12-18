@@ -2,6 +2,7 @@
 <html lang="fr">
 
 <!-- head -->
+
 <head>
 
 	<!-- balises meta -->
@@ -13,7 +14,8 @@
 
 	<!-- Liens vers l'icône qui apparaîtra dans l'onglet du navigateur,
 	la police de caractères utilisée sur la page, les fichiers CSS et JavaScript.-->
-	<link rel="icon" type="image/png" href="https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://playgameoflife.com/&size=16">
+	<link rel="icon" type="image/png"
+		href="https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://playgameoflife.com/&size=16">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
 	<link rel=stylesheet href="../CSS/style.css">
 	<script src="../JavaScript/js.js"></script>
@@ -21,8 +23,9 @@
 </head>
 
 <!-- corps -->
+
 <body data-theme="light">
-	
+
 	<!-- Menu déroulant qui apparaît en haut de la page et qui permet de naviguer -->
 	<nav class="menu">
 		<ul>
@@ -49,10 +52,10 @@
 	</nav>
 	<br>
 
-	
+
 	<!-- Formulaire -->
 	<form id="form" class="encadrement">
-		
+
 		<!-- Nom -->
 		<label for="name">Nom:</label><br>
 		<input type="text" id="name" name="name"><br>
@@ -63,8 +66,9 @@
 
 		<!-- Message -->
 		<label for="message">Message:</label><br>
-		<textarea id="message" name="text" rows="5" cols="30" placeholder="Laissez nous un avis sur notre site :"></textarea><br><br>
-		
+		<textarea id="message" name="text" rows="5" cols="30"
+			placeholder="Laissez nous un avis sur notre site :"></textarea><br><br>
+
 		<!-- Choix du genre -->
 		<label class="Petit_Titre">Genre:</label><br><br>
 		<input type="radio" id="male" name="gender" value="male">
@@ -83,7 +87,7 @@
 
 		<input type="radio" id="dinosaure" name="gender" value="dinosaure">
 		<label for="dinosaure">Dinosaure</label><br>
-		
+
 		<input type="radio" id="hululement_de_chouette" name="gender" value="hululement_de_chouette">
 		<label for="hululement_de_chouette">Hululement de chouette</label><br>
 
@@ -117,14 +121,15 @@
 		<input type="radio" id="satellite" name="gender" value="satellite">
 		<label for="satellite">Satellite en orbite géostationnaire</label><br>
 
-		<input type="radio" id="strombinoscope_modulable_manuellement" name="gender" value="strombinoscope_modulable_manuellement">
+		<input type="radio" id="strombinoscope_modulable_manuellement" name="gender"
+			value="strombinoscope_modulable_manuellement">
 		<label for="strombinoscope_modulable_manuellement">Strombinoscope modulable manuellement</label><br>
 
 		<input type="radio" id="systeme_solaire" name="gender" value="systeme_solaire">
 		<label for="systeme_solaire">Système solaire</label><br>
 
 		<input type="radio" id="tablette_retroeclaire" name="gender" value="tablette_retroeclaire">
-		<label for="tablette_retroeclaire">Tablette tactile rétroéclairé</label><br>		
+		<label for="tablette_retroeclaire">Tablette tactile rétroéclairé</label><br>
 
 		<input type="radio" id="titan_p" name="gender" value="titan_p">
 		<label for="titan_p">Titan Primordial</label><br>
@@ -146,12 +151,12 @@
 		<label for="other">Autre...</label><br>
 		<br>
 		<button onclick="mail()" title="Envoyer"> Envoyer </button>
-	  </form>
-	
+	</form>
+
 	<!-- Bouton pour remonter en haut de la page -->
 	<button onclick="topFunction()" id="topButton" title="Go to top"> ⇧ </button>
 
 	<!-- Bouton pour switch entre mode jour et nuit  -->
-	<label class="switch"><input type="checkbox"  onclick="dark()"><span class="slider round"></span></label>
-	
+	<label class="switch"><input type="checkbox" onclick="dark()"><span class="slider round"></span></label>
+
 </body>

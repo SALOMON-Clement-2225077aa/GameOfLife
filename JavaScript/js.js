@@ -12,18 +12,18 @@ function topFunction() {
 
 // Fonction qui s'active ou se désactive avec le switch en bas à gauche de chauqe page.
 // Il permet d'activer ou de désactiver le mode sombre.
-function dark(){
+function dark() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
 
 // Fonction qui s'active avec le bouton "envoyer" de la page formulaire.
 // Il permet comme son nom l'indique d'envoyer le formulaire.
-function mail(){
+function mail() {
   destinataire = "clement.salomon@etu.univ-amu.fr";
   destinataire_2 = "mathis.louarn@etu.univ-amu.fr";
   sujet_message = "Avis sur le site du jeu de la vie";
   contenu_message = "Aucun Message";
   contenu_message = document.getElementById("message").value;
-  window.open("mailto:"+destinataire+'?cc='+destinataire_2+'&subject='+sujet_message+'&body='+contenu_message);
+  window.open("mailto:" + destinataire + '?cc=' + destinataire_2 + '&subject=' + sujet_message + '&body=' + contenu_message);
 }
