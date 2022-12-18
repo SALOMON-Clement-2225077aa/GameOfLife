@@ -1,5 +1,5 @@
 /*
-  Ce fichier contient les styles CSS pour la page web du jeu de la vie.
+  Ce fichier contient les styles CSS pour toutes les pages de notre site.
   Les propriétés de mise en forme les plus importantes qu'il définit sont les suivantes :
   - body : le fond de la page
   - .menu : le menu de navigation en haut de la page
@@ -41,7 +41,7 @@ body {
 .gros {
     font-size: 25px;
 }
-/* CSS pour le menu de navigation */
+/* ----- CSS pour le menu de navigation ----- */
 nav {
     width: 100%;
     margin: 0 auto;
@@ -107,7 +107,7 @@ nav>ul li:hover .sous {
     border-bottom: none;
     background-color: RGBa(200, 200, 200, 0.1);
 }
-/* Fin du CSS pour le menu de navigation */
+/* ----- Fin du CSS pour le menu de navigation ----- */
 
 #topButton {
     position: fixed;
@@ -193,7 +193,7 @@ img {
     margin-right: auto;
 }
 
-/* CSS pour le switch entre mode jour et nuit */
+/* ----- CSS pour le switch entre mode jour et nuit ----- */
 .switch {
     position: fixed;
     bottom: 45px;
@@ -251,7 +251,9 @@ input:checked+.slider:before {
 .slider.round:before {
     border-radius: 50%;
 }
+/* ----- Fin du CSS pour le menu de navigation -----*/
 
+/* ----- Prise en compte des différentes taille d'écran ----- */
 @media screen and (max-width: 500px) {
     .gros {
         font-size: 20px;

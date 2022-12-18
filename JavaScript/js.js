@@ -1,8 +1,9 @@
-// Ce fichier contient les fonctions JavaScript suivantes :
-// - topFunction() : permet de remonter tout en haut de la page actuelle en cliquant sur le bouton "⇧" en bas à droite de chaque page.
-// - dark() : permet d'activer ou de désactiver le mode sombre en cliquant sur le switch en bas à gauche de chaque page.
-// - mail() : permet d'envoyer le formulaire de la page en cliquant sur le bouton "envoyer" sur la page formulaire.
-
+/*
+  Ce fichier contient les fonctions JavaScript suivantes :
+  - topFunction() : permet de remonter tout en haut de la page actuelle en cliquant sur le bouton "⇧" en bas à droite de chaque page.
+  - dark() : permet d'activer ou de désactiver le mode sombre en cliquant sur le switch en bas à gauche de chaque page.
+  - mail() : permet d'envoyer le formulaire de la page en cliquant sur le bouton "envoyer" sur la page formulaire.
+*/
 
 // Fonction qui s'active avec le bouton "⇧" en bas à droite de chauqe page.
 // Permet de remonter tout en haut de la page actuelle.
