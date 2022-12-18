@@ -212,8 +212,8 @@ img{
   }
   
   @keyframes scroll-right {
-    from {transform: translateX(-750%);}
-    to {transform: translateX(+750%);}
+    from {transform: translateX(-850%);}
+    to {transform: translateX(+850%);}
   }
 
 .tab_structure{
