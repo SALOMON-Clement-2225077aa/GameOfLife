@@ -24,6 +24,11 @@ body {
     font-family: "Source Sans Pro";
 }
 
+.dark-mode {
+    background-image: url("../Sources/Images/dark\ theme.bmp");
+    font-family: "Source Sans Pro";
+}
+
 .menu {
     background-color: var(--menu_background)
 }
@@ -36,63 +41,7 @@ body {
 .gros {
     font-size: 25px;
 }
-
-.paragraphe_menu {
-    width: 40%;
-    max-width: 400px;
-    text-align: justify;
-    margin-left: 25px;
-    border: 2px solid black;
-    border-radius: 3px;
-    padding: 5px;
-    display: inline-block;
-    background-color: white;
-}
-
-
-@media screen and (max-width: 500px) {
-    .gros {
-        font-size: 20px;
-    }
-}
-
-@media screen and (max-width: 430px) {
-    .gros {
-        font-size: 10px;
-    }
-
-    .petit {
-        font-size: 8px;
-        position: relative;
-        right: 20px;
-    }
-
-    .paragraphe_menu {
-        font-size: small;
-        width: 40%;
-        max-width: 400px;
-        text-align: justify;
-        margin-left: 25px;
-        border: 2px solid black;
-        border-radius: 3px;
-        padding: 5px;
-        display: inline-block;
-        background-color: white;
-    }
-
-    .fichier_source {
-        position: fixed;
-        top: 93%;
-    }
-}
-
-@media screen and (max-height: 820px) {
-    .fichier_source {
-        position: fixed;
-        top: 92%;
-    }
-}
-
+/* CSS pour le menu de navigation */
 nav {
     width: 100%;
     margin: 0 auto;
@@ -158,6 +107,7 @@ nav>ul li:hover .sous {
     border-bottom: none;
     background-color: RGBa(200, 200, 200, 0.1);
 }
+/* Fin du CSS pour le menu de navigation */
 
 #topButton {
     position: fixed;
@@ -195,14 +145,21 @@ nav>ul li:hover .sous {
     margin-right: auto;
 }
 
+.paragraphe_menu {
+    width: 40%;
+    max-width: 400px;
+    text-align: justify;
+    margin-left: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    display: inline-block;
+    background-color: white;
+}
+
 .Petit_Titre {
     text-decoration: underline;
     font-weight: bold;
-}
-
-.dark-mode {
-    background-image: url("../Sources/Images/dark\ theme.bmp");
-    font-family: "Source Sans Pro";
 }
 
 .Wikipédia {
@@ -304,4 +261,47 @@ input:checked+.slider:before {
 
 .slider.round:before {
     border-radius: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .gros {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .gros {
+        font-size: 10px;
+    }
+
+    .petit {
+        font-size: 8px;
+        position: relative;
+        right: 20px;
+    }
+
+    .paragraphe_menu {
+        font-size: small;
+        width: 40%;
+        max-width: 400px;
+        text-align: justify;
+        margin-left: 25px;
+        border: 2px solid black;
+        border-radius: 3px;
+        padding: 5px;
+        display: inline-block;
+        background-color: white;
+    }
+
+    .fichier_source {
+        position: fixed;
+        top: 93%;
+    }
+}
+
+@media screen and (max-height: 820px) {
+    .fichier_source {
+        position: fixed;
+        top: 92%;
+    }
 }
